@@ -1,0 +1,52 @@
+/*selector {
+	property: value;
+}*/ 
+
+.link-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #f2f2f2;
+	padding: 10px;
+	border-radius: 25px;
+}
+
+.link-container a{
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	padding: 5px solid #ccc;
+	border-radius: 3px;
+}
+
+.link-container a:hover {
+	background-color: #ddd;
+}
+body{
+	background-color: red;
+}
+
+h3{
+	font-family: "Helvetica", Arial, sans-serif;
+	font-size: 30px;
+	font-height: bold;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img{
+	width: 300px;
+	height: 300px;
+	margin: 30px;
+	transition: all 4s;
+
+}
+img:hover{
+	transform: scale(1.1);
+}
